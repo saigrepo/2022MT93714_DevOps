@@ -1,5 +1,4 @@
 package model;
-import java.*;
 
 class Model {
     String modelName;
@@ -12,7 +11,5 @@ class Model {
     public void setModelName(String modelName) {
         this.modelName = modelName;
     }
-    public String toString() {
-        return "modelName= " + modelName;
-    }
+
 }
