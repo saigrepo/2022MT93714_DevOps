@@ -6,6 +6,7 @@ class Model {
     public Model(String modelName) {
         this.modelName = modelName;
     }
+
     public String getModelName() {
         return modelName;
     }
